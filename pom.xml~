@@ -13,7 +13,6 @@
 				<artifactId>jmeter-maven-plugin</artifactId>
 				<version>1.4.1</version>
 				<configuration>
- <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
 					<testResultsTimestamp>false</testResultsTimestamp>
 				</configuration>
 				<executions>
