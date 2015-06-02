@@ -33,6 +33,12 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+            <reportDir>${project.build.directory}/jmeter-reports</reportDir>
+            <jmeterUserProperties>
+            <jmeterLogLevel>DEBUG</jmeterLogLevel>
+            </jmeterUserProperties>
+        </configuration>
 			</plugin>
 		</plugins>
 	</build>
