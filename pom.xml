@@ -2,8 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Jmetertest</groupId>
   <artifactId>Jmetertest</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+ 	<packaging>jar</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>jmeter-demo</name>
+	<url>http://maven.apache.org</url>
  <build>
 		<plugins>
 			<plugin>
